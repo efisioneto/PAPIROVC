@@ -1,7 +1,1 @@
 Nome: koiti
-=======
-Nome:
-vim koiti na branch koiti
-
-vim: segundo
->>>>>>> 397f59d430cf9f490fc985f765883d81d12990f2
