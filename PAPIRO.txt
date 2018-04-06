@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿Nome: koiti
+Nome: koiti
 =======
 Nome:
 vim koiti na branch koiti
