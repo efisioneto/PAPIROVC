@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 <<<<<<< HEAD
 Nome: Paulo Vitor
 =======
@@ -7,3 +7,5 @@ Nome: Brasil
 =======
 ﻿Nome: 
 >>>>>>> 37faf393db8d478dcd870905d768a0ca2c32b803
+
+Nome: Concolato
