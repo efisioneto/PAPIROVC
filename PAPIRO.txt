@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Nome: Paulo Vitor
+=======
+﻿Nome: 
+>>>>>>> 37faf393db8d478dcd870905d768a0ca2c32b803
