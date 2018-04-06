@@ -1,0 +1,217 @@
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (Timbo)
+$ git init
+Initialized empty Git repository in C:/Users/uliss/Desktop/barro for good/Telecom/programação/Papiro pra vc/.git/
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ git clone https://github.com/efisioneto/PAPIROVC.git
+Cloning into 'PAPIROVC'...
+remote: Counting objects: 27, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 27 (delta 0), reused 24 (delta 0), pack-reused 0
+Unpacking objects: 100% (27/27), done.
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=UlissesTimbo
+user.email=ulisses.tmb@gmail.com
+core.editor=emacs
+merge.tool=vimdiff
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ git remote add origin https://github.com/efisioneto/PAPIROVC.git
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=UlissesTimbo
+user.email=ulisses.tmb@gmail.com
+core.editor=emacs
+merge.tool=vimdiff
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/efisioneto/PAPIROVC.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ ls
+PAPIROVC/
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc (master)
+$ cd PAPIROVC/
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   PAPIRO.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git add PAPIRO.txt
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git commit -m "Versao do Timbo"
+[master e166e60] Versao do Timbo
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git checkout timbo
+Switched to a new branch 'timbo'
+Branch 'timbo' set up to track remote branch 'timbo' from 'origin'.
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git push
+Everything up-to-date
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 261 bytes | 130.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/efisioneto/PAPIROVC.git
+   782b02d..e166e60  master -> master
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git add PAPIRO.txt PAPIRO.txt
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   PAPIRO.txt
+
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git commit -m "Versao Inicial"
+[master 7af56c3] Versao Inicial
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 257 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/efisioneto/PAPIROVC.git
+   e166e60..7af56c3  master -> master
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (master)
+$ git checkout timbo
+Switched to branch 'timbo'
+Your branch is up to date with 'origin/timbo'.
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git checkout
+Your branch is up to date with 'origin/timbo'.
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git checkout origin
+Note: checking out 'origin'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 7af56c3 Versao Inicial
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC ((7af56c3...))
+$ git push origin
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC ((7af56c3...))
+$ git checkout timbo
+Previous HEAD position was 7af56c3 Versao Inicial
+Switched to branch 'timbo'
+Your branch is up to date with 'origin/timbo'.
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git push origin
+Everything up-to-date
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git push origin timbo
+Everything up-to-date
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git add PAPIRO.txt
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git commit -m "alteracao do timbo"
+[timbo c1eb41d] alteracao do timbo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+uliss@LAPTOP-SSIOJDGC MINGW64 ~/Desktop/barro for good/Telecom/programação/Papiro pra vc/PAPIROVC (timbo)
+$ git push origin timbo
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 261 bytes | 87.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/efisioneto/PAPIROVC.git
+   6434a53..c1eb41d  timbo -> timbo
